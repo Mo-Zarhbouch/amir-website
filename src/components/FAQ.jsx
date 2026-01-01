@@ -52,7 +52,7 @@ const FAQ = () => {
     { question: "Wat als ik weinig tijd heb?", answer: "De cursus is praktisch en to-the-point. Met enkele uren per week kun je al concrete stappen zetten." },
     { question: "Wat krijg ik precies bij dit traject?", answer: "Een compleet stappenplan, 1-op-1 coaching, community-toegang en alle tools/templates." },
     { question: "Wat gebeurt er na afloop van de cursus?", answer: "Je houdt blijvend toegang tot de materialen en krijgt ondersteuning via de community." },
-    { question: "Wat maakt dit traject anders dan andere opleidingen?", answer: "Dit is geen theoretische opleiding, maar een praktisch stappenplan gebaseerd op bewezen strategie." },
+    { question: "Wat maakt dit traject anders dan andere opleidingen?", answer: "Dit is geen theoretische opleiding, maar een praktisch stappenplan gebaseerd op bewezen strategieën." },
     { question: "Houd ik toegang en ondersteuning na afronding?", answer: "Je behoudt toegang tot de materialen. Doorlopende coaching/support kan je uitbreiden." },
     { question: "Wat als een plaatsing stopt?", answer: "Dan stopt de marge op die kandidaat. In de cursus leer je pipeline-management en opvolgstrategieën." },
   ];

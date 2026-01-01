@@ -8,12 +8,6 @@ function Homepage() {
         <section id="home-section" className="section orb-container header-padding-top" style={{ paddingBottom: 50}}>
 
             <div className="section-content-wrapper">
-                {/* <div className="welcome-text-container">
-                    
-                    <p>Start je Recruitment Agency Vanuit Huis!</p>
-                        
-                    
-                </div> */}
 
                 <div className="home-section-container">
                     <div class="home-section-heading">

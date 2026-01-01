@@ -103,7 +103,7 @@ const WhatYouAchieve = () => {
         
 
 
-        <div className="order-button-right">
+        <div className="order-button">
           <OrderCourseButton
              onClick={() => window.open("https://form.typeform.com/to/C38vkZ7t", "_blank")}
           />

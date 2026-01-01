@@ -476,7 +476,7 @@ button {
 .home-image-wrapper {
   margin-top: 0%; 
   margin-bottom: 50px;
-  background-color: grey;
+  /* background-color: grey; */
   width: 80%;
   border-radius: 1rem;
   aspect-ratio: 16 / 9;
@@ -563,7 +563,7 @@ button {
 
 .founder-image-container {
   width: 50%;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -575,8 +575,12 @@ button {
   max-height: 100%;
   object-fit: contain;
   border-radius: 10px;
+  transition: ease-in-out .2s;
 }
 
+.founder-image:hover {
+  scale: 1.05;
+}
 
 
 
@@ -789,7 +793,7 @@ button {
 .why-us-button-container {
   /* background-color: red; */
   width: 100%;
-  display: flex;
+  /* display: flex; */
 }
 
 
@@ -981,11 +985,11 @@ button {
 }
 
 
-.order-button-right {
+.order-button {
   width: 100%;
   /* background-color: red; */
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 
@@ -1512,9 +1516,11 @@ button {
 
 
   .achievement-image-container,
-  .for-who-image
+  .for-who-image,
+  .for-who-image-container
    {
-    display: none;
+    /* display: none; */
+    width: 100%;
   }
 
    .achievements {
@@ -1533,7 +1539,8 @@ button {
 
   
   .for-who-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
     gap: 15px;
   }
 
@@ -1543,7 +1550,7 @@ button {
   }
 
   .community-image {
-    display: none;
+    /* display: none; */
   }
 
   .community-container .text-container {

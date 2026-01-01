@@ -26,7 +26,7 @@ const Founder = () => {
                     <div className="founder-image-container">
                         <img 
                             src={founder} 
-                            alt="Random dude - Amir Kaddouri" 
+                            alt="Founder - Amir Kaddouri" 
                             className={`founder-image ${inView ? 'animate-in' : 'animate-out'}`}
                         />
                     </div>
